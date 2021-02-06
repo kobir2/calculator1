@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <!-- google fonts -->
+        
+
+    <!-- theme css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <div class="center">
+        <form action="" name="calculator">
+            <input type="text"  name="display" readonly="">
+            <div class="buttons">
+                <input type="button" value="7" onclick="addsEven()">
+                <input type="button"  value="8" onclick="addEight()">
+                <input type="button" value="9" onclick="addNine()"> 
+                <input type="button"  value="/" onclick="adddEvider()"><br>
+                <input type="button"  value="4" onclick="addFour()">
+                <input type="button"  value="5" onclick="addFive()">
+                <input type="button"  value="6" onclick="addSix()">
+                <input type="button"  value="*" onclick="addMulti()"><br>
+                <input type="button"  value="1" onclick="addOne()">
+                <input type="button"  value="2" onclick="addTwo()">
+                <input type="button"  value="3" onclick="addThree()">
+                <input type="button"  value="-" onclick="addSubs()"><br>
+                <input type="button"  value="." onclick="addDot()">
+                <input type="button"  value="+" onclick="addAddi()">
+                <input type="button" id="clear" onclick="addClear()" value="c">
+                <input type="button" id="equal" onclick="addEqual()" value="=">
+            </div>
+        </form>
+    </div>
+
+    <!-- theme js -->
+    <script src="./js/main.js">
+
+    </script>
+</body>
+</html>
